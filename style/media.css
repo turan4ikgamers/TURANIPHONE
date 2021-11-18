@@ -1,0 +1,28 @@
+@media(prefers-color-scheme: dark) {
+    :root {
+    --primary-background: #313131;
+    --primary-text-color: #FFFFFF;
+}
+
+body {
+    background: var(--primary-background);
+}
+
+.header__nav-img::after {
+    content: url('../images/Logo\ \(1\).png') !important;
+}
+
+.header__nav-bg {
+    background: black;
+}
+.header__nav-li {
+    color: white;
+}
+}
+
+
+
+
+
+    
+   
